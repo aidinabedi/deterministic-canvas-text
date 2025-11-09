@@ -1,0 +1,23 @@
+{
+  "name": "deterministic-canvas-text",
+  "version": "0.0.0",
+  "author": "Aidin Abedi",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  },
+  "volta": {
+    "node": "24.11.0"
+  }
+}
